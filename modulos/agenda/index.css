@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    
+    
+}
+
+.header {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 0px 20px 0px 20px;
+    width: 30%;
+}
+
+img {
+    width: 50%;
+    
+}
+
+li {
+    background-color: orange;
+    width: 20%;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25pt;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li:hover {
+    background-color: orangered;
+    transition: 0.8s;
+    cursor: pointer;
+}
