@@ -28,7 +28,7 @@
         <article>CONTEÚDO</article>
         </section>
         <aside>CONTEÚDO RELACIONADO</aside>
-        <footer>RODAPÉ</footer>
+        <footer>RODAPÉ, TESTANDO ALTERAÇÃO</footer>
     </div>
 
     */ ANOTAÇÕES IMPORTANTES PARA DESENVOLVIMENTO DO SISTEMA
