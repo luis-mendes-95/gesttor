@@ -1,86 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Chelsea+Market&family=IBM+Plex+Sans:wght@600&family=Koulen&family=League+Gothic&family=Neucha&family=New+Rocker&family=Roboto:wght@300;400&family=Secular+One&family=UnifrakturCook&display=swap');
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-body {
+body{
+    height: 90vh;
     display: flex;
-}
-
-main {
-    width: 100%;
-}
-
-header {
-    color: orangered;
-    display: flex;
-    font-family: Koulen;
-    font-size: 25pt;
-    padding: 10px;
-    background-color: rgb(255, 212, 104);
-    width: 10vw;
-    height: 100vh;
-    justify-content: flex-start;
-    text-align: center;
-    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
 }
-
-header > #menu > div > {
-    background-color: gray;
-}
-
-header > #menu > div > img {
-    height: 10vh;
-    cursor: pointer;
-    margin: 5px 0px 5px 0px;
-}
-
-header > #menu > div > img:hover {
-    height: 12vh;
-}
-
-figure {
-    height: 150px;
-    cursor: pointer;
-}
-
-img {
-    height: 15vh;
-    margin-bottom: -30px;
-
-}
-
-img:hover {
-    height: 18vh;
-    margin-bottom: -30px;
-}
-
-.boxMain{
-    background-color: rgb(255, 212, 104);
-    padding: 20px;
+.header-menu {
     display: flex;
-    justify-content: flex-start;
-    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: orangered;
+    font-family: league gothic;
+    font-size: 25pt;
+    font-weight: 100;
     align-items: center;
-    gap: 20px;
-  }
+    padding: 2%;
+}
+.img-logo {
+    width: 25vw;
+}
+.figcaption-logo {
+    width: 25vw;
+    text-align: center;
+}
+.div-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.nav-menu {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vh;
+}
+.button-for-nav-menu {
+    background-color: orange;
+    font-family: league gothic;
+    font-size: 15pt;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+}
+.footer-content {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer-content > span > a {
+    color: orangered;
+    text-decoration: none;
+}
+.main-content{
+    height: 100%;
+    padding: 2%;
+}
+.table-content{
+    display: flex;
+    justify-content: center;
+    font-family: league gothic;
+    font-size: 15pt;
+    font-weight: 100;
+}
 
-  .boxMain > .boxItem > img {
-      height: 4vw;
-  }
-
-  .boxItem {
-    width: 5vw;
-    height: 5vw;
-    background-color:rgb(242, 173, 0);
-    border-radius: 8px;
-    cursor: pointer;
-  }
-
-  .boxItem:hover {
-    width: 5vw;
-    height: 5vw;
-    background-color:rgb(255, 212, 104);
-    border-radius: 8px;
-  }
+.table-content > tr,th,td {
+    border: 0.5pt black solid;
+    width: 100vw;
+    text-align: center;
+}
