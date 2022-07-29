@@ -1,78 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Chelsea+Market&family=IBM+Plex+Sans:wght@600&family=Koulen&family=League+Gothic&family=Neucha&family=New+Rocker&family=Roboto:wght@300;400&family=Secular+One&family=UnifrakturCook&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: space-between;
-}
-.header-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: black;
-    color: orangered;
-    font-family: league gothic;
-    font-size: 25pt;
-    font-weight: 100;
-    align-items: center;
-    padding: 2%;
-}
-.img-logo {
-    width: 25vw;
-}
-.figcaption-logo {
-    width: 25vw;
-    text-align: center;
-}
-.div-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-.nav-menu {
-    width: 25vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 4vh;
-}
-.button-for-nav-menu {
-    background-color: orange;
-    font-family: league gothic;
-    font-size: 15pt;
-    font-weight: 100;
-    border: none;
-    border-radius: 5px;
-}
-.footer-content {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-.footer-content > span > a {
-    color: orangered;
-    text-decoration: none;
-}
-.main-content{
+
+.header-menu{
+    background-color: rgb(19, 163, 207);
     height: 100%;
-    padding: 2%;
-}
-.table-content{
     display: flex;
-    justify-content: center;
-    font-family: league gothic;
-    font-size: 15pt;
-    font-weight: 100;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
 }
 
-.table-content > tr,th,td {
-    border: 0.5pt black solid;
-    width: 100vw;
-    text-align: center;
+.button-header{
+    background-color: rgb(121, 255, 246);
+    padding: 5px;
+    margin: 10px;
+    min-width: 75px;
+    border: none;
+    height: 8%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px;
+    font-size: 12pt;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button-header:hover{
+    background-color: rgb(140, 247, 69);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.section-add-new-cpf-cnpj{
+    margin: 20px auto 20px auto;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-database-cpf-cnpj{
+    margin: 20px auto 20px auto;
+    background-color: rgb(255, 194, 81);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-title-new-cad{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+}
+
+.inputs{
+    height: 35px;
+    width: 75%;
+    padding: 2px;
+}
+
+.labels{
+    font-size: 15pt;
+    margin-top: 10px;
+}
+
+.button-submit{
+    margin-top: 10px;
+    background-color: rgb(56, 111, 0);
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    min-width: 75px;
+    border: none;
+    height: 8%;
+    border-radius: 10px;
+    font-size: 12pt;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button-submit:hover{
+    background-color: rgb(68, 169, 0);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.table-database-cpf-cnpj{
+    width: 75%;
+    text-align: left;
+}
+
+.td-inputs {
+    padding: 10px 10px 10px 0; 
 }

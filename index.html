@@ -9,39 +9,60 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/css/indexstyle.css">
+    <script defer src="/src/script/database.js"></script>
+    <script defer src="/src/script/script.js"></script>
+
 </head>
 <body>
     <header class="header-menu">
-        <div class="div-logo">
-            <img class="img-logo" src="/src/img/logo.png" alt="Logo">
-            <figcaption class="figcaption-logo">Gesttor</figcaption>
-        </div>
-            
-            <nav class="nav-menu">
-                <button class="button-for-nav-menu">CADASTROS</button>
-                <button class="button-for-nav-menu">PEDIDOS</button>
-                <button class="button-for-nav-menu">FINANCEIRO</button>
-            </nav>
+        <button class="button-header" id="button-cpf-cnpj">CPF/CNPJ</button>
+        <button class="button-header">PORTFOLIO</button>
+        <button class="button-header">PEDIDOS</button>
+        <button class="button-header">OS</button>
+        <button class="button-header">A RECEBER</button>
+        <button class="button-header">A PAGAR</button>
+        <button class="button-header">AGENDA</button>
     </header>
-    <main class="main-content">
-        <table class="table-content">
-            <tr>
-                <th>CONTEÚDO</th>
-                <th>CONTEÚDO</th>        
-                <th>CONTEÚDO</th> 
-            </tr>
-            <tr>
-                <td>DESCRIÇÃO</td>
-                <td>DESCRIÇÃO</td>
-                <td>DESCRIÇÃO</td>
-            </tr>
-        </table>
+    <main class="main-content" id="main-content">
+
+      <!--   <section class="section-add-new-cpf-cnpj">
+            <h2 class="h2-title-new-cad">ADICIONAR NOVO CADASTRO</h2>
+            <label class="labels" for="input-name">Nome</label>
+            <input class="inputs" id="input-name" type="text" name="Nome" placeholder="Digite o nome da pessoa ou empresa">
+            <label class="labels" for="input-cidade">Cidade</label>
+            <input class="inputs" id="input-cidade" type="text" name="Nome" placeholder="Digite o nome da pessoa ou empresa">
+            <button class="button-submit" id="button-submit">Cadastrar</button>
+        </section>
+        <section class="section-database-cpf-cnpj">
+            <h2 class="h2-title-new-cad">BANCO DE DADOS</h2>
+            <table class="table-database-cpf-cnpj">
+                <thead>
+                    <th>NOME</th>
+                    <th>CIDADE</th>
+                </thead>
+                <tr class="tr-inputs">
+                    <td class="td-inputs">Luís Felipe Mendes</td>
+                    <td class="td-inputs">Balneário Barra do Sul</td>
+                </tr>
+                <tr >
+                    <td class="td-inputs">Paola Orloff</td>
+                    <td class="td-inputs">São Francisco do Sul</td>
+                </tr>
+            </table>
+        </section> -->
+
+        <section class="section-add-new-cpf-cnpj" id="section-add-new-item-portfolio">
+            <h2 class="h2-title-new-cad">ADICIONAR NOVO ITEM NO PORTFOLIO</h2>
+            <label class="labels" for="input-name">Nome</label>
+            <input class="inputs" id="input-name" type="text" name="Nome" placeholder="Digite o nome da pessoa ou empresa">
+            <label class="labels" for="input-cidade">Cidade</label>
+            <input class="inputs" id="input-cidade" type="text" name="Nome" placeholder="Digite o nome da pessoa ou empresa">
+            <button class="button-submit" id="button-submit">Cadastrar</button>
+        </section>
+
  
     </main>
-    
-    <footer class="footer-content">
-        <span>Desenvolvido por <a href="https://tejas.com.br" target="_blank">Tejas Designs</a></span>
-    </footer>
-    <script src="/src/script/script.js"></script>
+
+
 </body>
 </html>
