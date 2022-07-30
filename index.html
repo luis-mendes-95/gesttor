@@ -16,7 +16,7 @@
 <body>
     <header class="header-menu">
         <button class="button-header" id="button-cpf-cnpj">CPF/CNPJ</button>
-        <button class="button-header">PORTFOLIO</button>
+        <button class="button-header" id="button-portfolio">PORTFOLIO</button>
         <button class="button-header">PEDIDOS</button>
         <button class="button-header">OS</button>
         <button class="button-header">A RECEBER</button>
@@ -53,11 +53,13 @@
 
         <section class="section-add-new-cpf-cnpj" id="section-add-new-item-portfolio">
             <h2 class="h2-title-new-cad">ADICIONAR NOVO ITEM NO PORTFOLIO</h2>
-            <label class="labels" for="input-name">Nome</label>
-            <input class="inputs" id="input-name" type="text" name="Nome" placeholder="Digite o nome da pessoa ou empresa">
-            <label class="labels" for="input-cidade">Cidade</label>
-            <input class="inputs" id="input-cidade" type="text" name="Nome" placeholder="Digite o nome da pessoa ou empresa">
-            <button class="button-submit" id="button-submit">Cadastrar</button>
+            <label class="labels" for="input-description">Descrição</label>
+            <input class="inputs" id="input-item-description" type="text" name="Nome" placeholder="Descreva o item">
+            <label class="labels" for="input-custo">Custo</label>
+            <input class="inputs" id="input-item-custo" type="text" name="Nome" placeholder="Digite o custo da produção">
+            <label class="labels" for="input-cidade">Preço final</label>
+            <input class="inputs" id="input-preco-venda" type="text" name="preco-venda" placeholder="Digite o preço final do produto">
+            <button class="button-submit" id="button-submit-item">Cadastrar</button>
         </section>
 
  
