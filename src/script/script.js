@@ -104,7 +104,7 @@ function imprimirNovoCadCpfCnpj() {
 
   return main_content.appendChild(section_add_new_cpf_cnpj)
 }
-//imprimirNovoCadCpfCnpj()
+imprimirNovoCadCpfCnpj()
 
 function imprimirNovoCadPortfolio() {
 
@@ -205,7 +205,7 @@ function imprimirDatabaseCpfCnpj() {
   
   return main_content.appendChild(section_database_cpf_cnpj)
 }
-//imprimirDatabaseCpfCnpj()
+imprimirDatabaseCpfCnpj()
 
 
 
