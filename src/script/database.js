@@ -1,4 +1,14 @@
-let cadastrosCpfCnpj = [
+const cadastrosMenu = [
+    "CPF/CNPJ",
+    "PORTFOLIO",
+    "PEDIDOS",
+    "OS",
+    "A RECEBER",
+    "A PAGAR",
+    "AGENDA"
+]
+
+const cadastrosCpfCnpj = [
     {
         nome: "Luís Felipe Mendes",
         cidade: "Balneário Barra do Sul"
@@ -9,7 +19,7 @@ let cadastrosCpfCnpj = [
     }
 ]
 
-let cadastrosPortfolio = [
+const cadastrosPortfolio = [
     {
         descricao: "Milheiro cartão de visita frontal tradicional",
         custo: 56.00,
