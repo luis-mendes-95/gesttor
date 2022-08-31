@@ -1,4 +1,5 @@
 function printMenu() {
+  console.log("só pra testar o git")
 
   let header_menu = document.querySelector(".header_menu")
 
