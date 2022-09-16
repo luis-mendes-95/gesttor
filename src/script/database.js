@@ -10,10 +10,12 @@ const cadastrosMenu = [
 
 const cadastrosCpfCnpj = [
     {
+        id: 1,
         nome: "Luís Felipe Mendes",
         cidade: "Balneário Barra do Sul"
     },
     {
+        id: 2,
         nome: "Paola Orloff",
         cidade: "São Francisco do Sul"
     }

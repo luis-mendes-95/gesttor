@@ -48,7 +48,7 @@
     gap: 5px;
 }
 
-.section-database-cpf-cnpj{
+.section_database{
     margin: 20px auto 20px auto;
     background-color: rgb(255, 194, 81);
     display: flex;
@@ -113,12 +113,12 @@
     transition: 0.3s;
 }
 
-.table-database-cpf-cnpj{
+.table_database{
     width: 75%;
     text-align: left;
 }
 
-.td-inputs {
+.td_inputs {
     padding: 10px 10px 10px 0; 
 }
 
